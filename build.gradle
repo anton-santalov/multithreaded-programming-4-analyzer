@@ -1,5 +1,7 @@
 plugins {
+    id 'application'
     id 'java'
+    id 'java-library'
 }
 
 group = 'com.antonsantalov'
@@ -17,3 +19,5 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+mainClassName = "com.antonsantalov.Main"

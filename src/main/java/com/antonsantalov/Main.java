@@ -1,6 +1,9 @@
 package com.antonsantalov;
 
-import java.util.*;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
 import java.util.concurrent.*;
 
 public class Main {
